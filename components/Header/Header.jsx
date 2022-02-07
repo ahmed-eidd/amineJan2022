@@ -35,7 +35,7 @@ const Header = () => {
               brandName='Tesla'
               price='$20.0'
               secondPrice='-$20'
-              thirdPrice='+$20'
+              thirdPrice='+20%'
             />
           </MarqueeItem>
           // <motion.div
