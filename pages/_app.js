@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
       body: {
         color: mode(lightMode.color, darkMode.color)(pageProps),
         bg: mode(lightMode.bg, darkMode.bg)(pageProps),
+        overflow: 'hidden',
       },
     }),
   };
@@ -24,6 +25,12 @@ function MyApp({ Component, pageProps }) {
     colors: {
       primary: {
         100: '#726eff',
+      },
+      greentext: {
+        100: '#15FFAB',
+      },
+      redtext: {
+        100: '#FD4438',
       },
     },
     styles,

@@ -28,7 +28,7 @@ import appstore from '../../public/appstore.png';
 
 const Footer = () => {
   return (
-    <Box py={20} bg='gray.700' as='footer'>
+    <Box py={20} mt={14} bg='gray.700' as='footer'>
       <Container maxW='8xl' width='100%' px={16} mx='auto'>
         <Flex align='flex-start' justify='space-between'>
           <Logo />
