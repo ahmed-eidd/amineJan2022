@@ -27,7 +27,7 @@ const Header = () => {
           justifyContent: 'space-between',
           alignItems: 'center',
         }}
-        duration='115s'
+        duration='40s'
       >
         {[...Array(10)].map((el, i) => (
           <MarqueeItem key={i}>
